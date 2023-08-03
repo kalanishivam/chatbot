@@ -1,5 +1,3 @@
 # output
-![output_1](https://github.com/kalanishivam/chatbot/assets/141364390/a67d86cf-264e-4dc7-922c-cac9357aa81d)
 
-![output_2](https://github.com/kalanishivam/chatbot/assets/141364390/ff8cf7c9-2eba-47d2-bbdf-eab9a9fc6926)
-
+![output_1](https://github.com/kalanishivam/chatbot/assets/141364390/1f95e780-5f85-47b0-a50a-7e8360084f8a)  ![output_2](https://github.com/kalanishivam/chatbot/assets/141364390/a4414806-3ec4-4872-aea5-950f1343adff)
