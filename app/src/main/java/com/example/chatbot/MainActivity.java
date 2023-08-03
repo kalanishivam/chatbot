@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
     MessagesList messagesList;
     User us, chatgpt;
     MessagesListAdapter<Message> adapter;
-    // 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
+
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -118,7 +118,7 @@ public class MainActivity extends AppCompatActivity {
             public Map<String, String> getHeaders() throws AuthFailureError {
                 HashMap<String , String> map = new HashMap<>();
                 map.put("Content-Type" , "application/json");
-                map.put("Authorization" , "Bearer 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");
+                map.put("Authorization" , "Bearer ${API_KEY}");
                 return map;
             }
         };
@@ -185,7 +185,7 @@ public class MainActivity extends AppCompatActivity {
                 public Map<String, String> getHeaders() throws AuthFailureError {
                     HashMap<String , String> map = new HashMap<>();
                     map.put("Content-Type" , "application/json");
-                    map.put("Authorization" , "Bearer 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");
+                    map.put("Authorization" , "Bearer ${API_KEY}");
                     return map;
                 }
             };
